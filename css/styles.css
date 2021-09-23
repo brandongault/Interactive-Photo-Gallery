@@ -1,0 +1,50 @@
+
+body{
+ margin: 0;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-gap: 25px;
+  justify-content: center;
+  margin: 30px;
+}
+
+.searchbox {
+  display: block;
+  width: 28%;
+  padding: 20px;
+  border-style: solid;
+  border-color: #dbdbdb;
+  border-radius: 5px;
+}
+
+input {
+  margin: auto;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+input:hover{
+  background-color: #e8e8e8;
+  transform: scale(1.02);
+  transition: transform .5s ease;
+}
+
+input:focus {
+  outline: #dbdbdb;
+}
+
+#search {
+  font-weight: 700;
+}
+
+::placeholder {
+    color: #a6a6a6;
+}
+
+img:hover {
+  transition: transform .5s ease;
+  transform: scale(1.02);
+}
